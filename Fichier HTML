@@ -1,8 +1,33 @@
 <html>
   <head>
     <title></title>
-    <meta content="">
+    <meta charset="utf-8">
     <style></style>
   </head>
-  <body></body>
+  <body>
+  
+    <p>
+        <ul>
+            <li>
+            <a href="https://www.google.ch/?gfe_rd=cr&ei=vQcQVZPcNMWX8QeXuIHgBw&gws_rd=ssl"
+                title="Cliquer pour accèder au site de Google">
+            Je ne pense guère que cela soi une bonne idée
+            <img 
+            width="100"
+            height="100"
+            src="http://i.space.com/images/i/000/007/862/original/508898main_wide_corona_eclipse_ti3.jpg?1296516083"
+            alt="L'image d'une eclipse"
+            >
+            </a>
+            </li>
+            <li>
+            Du bon <a href="http://www.google.ch/search?q=fromage">fromage</a>
+            </li>
+        </ul>
+    </p>
+  
+  
+  
+  
+  </body>
 </html>
