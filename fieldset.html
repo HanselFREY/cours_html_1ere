@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+  <head>
+
+    <meta charset="utf8">
+    <title>Mon premier site</title>
+
+  </head>
+
+  <body>
+      
+      <fieldset>
+          <legend><input type="checkbox">Choix du pays</legend>
+      
+      <label for="country">Le pays</label>
+
+<select id="country" name="country" required>
+
+<option value=""> Séléctionnez un pays</option>
+<option value="DE">Allemagne</option>
+<option value="AT">Autriche</option>
+<option value="FR">France</option>
+<option value="IT">Italie</option>
+<option value="LI">Liechtenstein</option>
+<option value="CH">Suisse</option>
+<option value="SZ">Swaziland</option>
+</select>
+
+<br />
+
+      <label for="unittype">Type d'unité</label>
+
+<select id="unittype" name="untittype" required>
+    <option value=""> Séléctionnez un type d'unité</option>
+    <option value="DEMON">Démoniste</option>
+    <option value="WAR">Guerrier</option>
+    <option value="PALA">Paladin</option>
+    <option value="MAGE" selected>Mage</option>
+    <option value="PRIEST">Prêtre</option>
+</select>
+
+</fieldset>
+
+<br />
+
+
+
+      <label for="artiste">Mes artistes préféré(e)s</label>
+
+<select id="artiste" name="artiste[]" required>
+
+<option value=""> Séléctionnez vos artistes préféré</option>
+<option value"DEMON">Démoniste</option>
+<option value"WAR">Guerrier</option>
+<option value"PALA">Paladin</option>
+<option value"MAGE" selected>Mage</option>
+<option value"PRIEST">Prêtre</option>
+</select>
+
+<br />
+
+<input type="submit" name="submit" value="Envoyer">
+
+  </body>
+
+</html>
